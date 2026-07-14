@@ -55,12 +55,11 @@ Total annual rainfall trend for Kerala
 
 Getting Started
 
-bashpip install imdlib xarray geopandas rioxarray shapely matplotlib
+pip install imdlib xarray geopandas rioxarray shapely matplotlib
 
 Then open IMD_Data_Analysis.ipynb and run all cells. Note: the IMD download step (imd.get_data) can take a while for a 20-year range as it pulls year-wise binary files.
 
 Possible Extensions
-
 
 Extend to other states/districts or run at grid-cell level instead of a single spatial average
 Add seasonal (monsoon vs. non-monsoon) breakdowns
